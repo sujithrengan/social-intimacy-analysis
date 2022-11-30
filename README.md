@@ -10,7 +10,7 @@ SWARNABHA ROY
 ## Intimacy Score Predictor code
 
 ### Overview
-The code exists in NLP Project_initimacy_score.ipynb. This can be run independently in colab. The code should run the best model against semeval dataset. Colab Outputs are already generated for the best model. If you want to play around, please look at training section to update config or hyper parameters.
+The code exists in NLP Project_initimacy_score.ipynb. This can be run independently in colab. The code should run the best model against semeval dataset. Colab Outputs are already generated for the best model. If you want to play around, please look at training section to update args or hyper parameters.
 
 ### Training
 Training arguments and hyperparameters can be configured via `Args` and `Config`.
