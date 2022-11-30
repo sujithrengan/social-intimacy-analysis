@@ -31,8 +31,9 @@ class Config:
 ## Helper functions
 ## Results
 ```
-best_val_loss: 0.1229709167857086
-best_test_loss: tensor(0.1130, device='cuda:0')
-best_test_pearsonr: 0.6631512718557476
+model_name = 'xlnet-base-cased'
+best_val_loss: 0.13466132375722012
+best_test_loss: tensor(0.0795, device='cuda:0')
+best_test_pearsonr: 0.6771716153790823
 ```
 ## Visualization
