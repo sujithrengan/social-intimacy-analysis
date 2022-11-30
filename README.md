@@ -37,7 +37,7 @@ best_test_loss: tensor(0.0795, device='cuda:0')
 best_test_pearsonr: 0.6771716153790823
 ```
 ## Visualization
-The colab notebook can be run independently.
+Intimacy vs topic.ipynb for visualization for gender vs topic based analysis, The colab notebook can be run independently.
 
 ## Gender prediction 
-Gender prediction notebook can be run independently.
+Gender_detection.ipnyb contains the code to train-test the Gender prediction, the notebook can be run independently.
