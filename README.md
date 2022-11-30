@@ -37,3 +37,7 @@ best_test_loss: tensor(0.0795, device='cuda:0')
 best_test_pearsonr: 0.6771716153790823
 ```
 ## Visualization
+The colab notebook can be run independently.
+
+## Gender prediction 
+Gender prediction notebook can be run independently.
