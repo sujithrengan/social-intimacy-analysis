@@ -9,9 +9,9 @@ class Args:
     model_name # Model Name used for saving output
     pre_trained_model_name_or_path # Pretrained model name on 🤗
     train_path # Path to train dataset .txt file
-    val_path = # Path to validation dataset .txt file
-    test_path = # Path to test dataset .txt file
-    model_saving_path = # Path to save model outputs
+    val_path # Path to validation dataset .txt file
+    test_path # Path to test dataset .txt file
+    model_saving_path # Path to save model outputs
 ```
 
 `Config` holds parameters for training:
@@ -20,7 +20,7 @@ class Config:
     max_epochs # Number of epochs for training
     lr # Learning rate 
     batch_size # Batch size
-    cuda = # Enable CUDA
+    cuda # Enable CUDA
     max_len # Maximum length of tweets/ posts
     warmup_ratio # Warmup for percentage of total training steps
     weight_decay # Weight Decay
@@ -30,5 +30,9 @@ class Config:
 
 ## Helper functions
 ## Results
-
+```
+best_val_loss: 0.1229709167857086
+best_test_loss: tensor(0.1130, device='cuda:0')
+best_test_pearsonr: 0.6631512718557476
+```
 ## Visualization
